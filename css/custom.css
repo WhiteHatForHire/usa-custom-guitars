@@ -1,0 +1,257 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 54px;
+  }
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+}
+
+.navbar-top {
+    background-color: rgba(0,0,0,0.7) !important;
+    padding: 0px 60px;
+}
+
+.navbar-top ul {
+    font-size: 22px;
+}
+
+.navbar-top li {
+    padding-left: 13px;
+}
+
+.navbar-top .nav-link {
+    color: white !important;
+}
+
+.navbar-top .nav-link:hover {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+.landing {
+    margin-top: -56px;
+}
+
+.landing .col-lg-6 {
+    padding: 0;
+}
+.landing img {
+    height: 105%;
+    width: 100%;
+}
+
+/*===== Black bar =====*/
+.black-bar {
+    margin-top: -56px;
+    background-color: black !important;
+    height: 30px;
+}
+
+/* ====== LANDING TEXT ====== */
+.text-red {
+    color: red;
+}
+.landing-text {
+    padding-top: 120px !important;
+    padding: 70px 0;
+    background-color: rgba(30,30,30, 0.9);
+    color: white;
+    font-size: 20px;
+}
+
+/*====== Landing Cards ======*/
+
+
+.landing-cards {
+    padding-top: 130px !important;
+    padding-bottom: 100px !important;
+    background-color: rgba(107,107,107, 0.4);
+    padding: 0 40px;
+}
+.landing-cards .card {
+    border: none;
+    margin: 0 50px;
+}
+
+.landing-cards .card-block {
+    padding: 8px 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 19px;
+}
+
+.landing-cards .card-block a {
+    text-decoration: none;
+}
+
+.card-img-container {
+    position: relative;
+}
+
+.card-img-caption {
+    background-color: rgba(0,0,0,0.7);
+    /*padding: 0;*/
+    position: absolute;
+    color: white !important;
+    bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.card-height-fix {
+    height: 404px;    
+}
+
+/*===== BIG IMAGE =====*/
+
+.big-image {
+    height: 700px;
+    background-image: url(/img/usacg5.jpg);
+    background-size: cover;
+    background-position: 50% 90%;
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+}
+
+/*===== landing-end-section =====*/
+.landing-end-section {
+    color: white;
+    background-color: rgba(107,107,107, 0.4);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.big-text {
+    font-size: 56px;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+}
+
+.landing-end-section {
+    font-size: 18px;
+}
+
+.row a:hover {
+    color: #c9c9c9;
+}
+.landing-end-section a {
+    text-decoration: none;
+}
+
+.guitar-col-bg-1 {
+    margin-left: 50px;
+    /*background-image: url(/img/usacg2.jpg);*/
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*===== Landing 3 cards =====*/
+.landing-3-cards {
+    padding-bottom: 100px !important;
+    padding: 0 100px;
+    background-color: rgba(107,107,107, 0.4);
+}
+.landing-3-cards img {
+    width: 100%;  
+    height: auto;
+}
+
+/*===== FOOTER ======*/
+footer{
+  color: white;
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: white;
+}
+
+.footer-bottom{
+  background: #3d6277;
+  padding: 2em;
+}
+.footer-top{
+  background: #2d4958;  
+}
+.footer-middle{
+   background: #3d6277;
+  padding-top: 2em;
+  color: white;
+}
+/**Sub Navigation**/
+.subnavigation-container{
+  background: #3d6277;
+}
+.subnavigation .nav-link{
+  color: white;
+  font-weight: bold;
+}
+.subnavigation-container{
+  text-align: center;
+}
+.subnavigation-container .navbar{
+  display: inline-block;
+  margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+}
+.col-subnav a{
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+.col-subnav .active{
+  border-top:5px solid orange;
+ background: white;
+  color: black;
+}
+
+/*===== standing guitar =====*/
+.standing-guitar {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(/img/usacg21.jpg);
+    background-size: cover;
+    background-color: #494949;
+    z-index: 1;
+}
+
+
+
+/*===== UTILITIES =====*/
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+/*Mobile Queries */
+
+@media (max-width: 778px) {
+    .landing-3-cards img {
+        padding-bottom: 40px; 
+
+    }
+    footer .col-sm-6 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .guitar-col-bg-1 {
+        margin-left: auto;
+    }
+    .landing-cards {
+    padding: 0 0px;
+    }
+    .landing-cards .card {
+        margin: 0 0px;
+    }
+    .navbar-top {
+        padding: 5px 10px;
+    }
+    .navbar-top img {
+        width: 280px;
+    }
+    .card-height-fix {
+    height: auto;    
+    }
+}
